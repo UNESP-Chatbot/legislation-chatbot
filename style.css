@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #0F0F11;
   margin: 0;
   display: flex;
@@ -7,49 +7,38 @@ body {
   flex-direction: column;
   min-height: 100vh;
   overflow-x: hidden;
-}
+} */
 
-.container {
+
+/* Estilos para o corpo da página */
+body {
+  background-color: #0F0F11;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  padding-top: 20px;
+  justify-content: center;
 }
 
+.centered-image {
+  margin: 0px;
+}
+
+/* Tamanhos responsivos para a logo */
 .logo {
-  max-width: 90%;
-  max-height: 300px;
+  max-width: 150px; /* Tamanho padrão para desktop */
   height: auto;
-  margin-bottom: 20px; 
 }
 
-.iframe {
-  width: 100%;
-  max-width: 800px;
-  height: 60vh;
-  max-height: 650px;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
+/* Ajustes para dispositivos móveis */
 @media (max-width: 768px) {
   .logo {
-    max-height: 200px;
-  }
-
-  .iframe {
-    height: 50vh;
+      max-width: 80px; /* Tamanho reduzido para telas menores */
   }
 }
 
-@media (max-width: 480px) {
-  .logo {
-    max-height: 150px;
-  }
-
-  .iframe {
-    height: 50vh;
-    max-width: 100%;
-  }
+gradio-app {
+  margin: 10px; /* Adicionando margem para não colar nas bordas */
+  width: 90%; /* Ajusta largura para se adequar melhor à tela */
 }
