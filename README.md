@@ -1,4 +1,8 @@
 # Chatbot da Legislação da Unesp
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/4d8aaf83-d9ed-41e9-925a-b46f3d3ba72e" alt="chatbot-avatar-closed" width="150">
+</div>
+
 
 Este projeto foi desenvolvido como parte da disciplina de **Aprendizado Profundo** do **Programa de Pós-Graduação em Ciência da Computação (PPGCC) da Unesp**, ministrada pelo **Prof. Dr. Denis Henrique Pinheiro Salvadeo**. Para mais informações sobre o PPGCC, visite o site oficial: [PPGCC Unesp]([https://www.ibilce.unesp.br/#!/pos-graduacao/ciencia-da-computacao/](https://www.ibilce.unesp.br/#!/pos-graduacao/programas-de-pos-graduacao/ciencia-da-computacao)).
 
